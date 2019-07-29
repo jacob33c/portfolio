@@ -1,0 +1,116 @@
+/* IDEA: HTML element styles */
+html {
+  scroll-behavior: smooth;
+}
+h1,h2,{
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+h3{
+  font-family: 'Kalam', cursive;
+}
+h5{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/* IDEA: navbar styles */
+.navbar-brand{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+  color:#EAF4F4;
+}
+.nav-link{
+  color: white;
+}
+.navbar-togler{
+  color:white;
+}
+.navbar{
+  margin-bottom:15%;
+}
+
+/* IDEA: title section styles */
+.headliner{
+  line-height: 1.5;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+.title-images{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 10px 10px 5px grey; */
+  margin: 5% 5%;
+  padding: 5% 20%;
+}
+.title-images:hover{
+  /* box-shadow: 10px 10px 5px black; */
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.download-button{
+    margin:8% 3%;
+}
+.title-right{
+  text-align: center;
+}
+
+/* IDEA: project section */
+.project-header{
+  margin-bottom: 3%;
+  line-height: 1.5;
+  color: white;
+  background-color: #A4C3B2;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-image{
+  height: 150px;
+  width: 2000px;
+}
+
+.card-text{
+  text-align: left;
+}
+.card{
+  margin: auto -2%;
+}
+
+/* IDEA: contact section */
+
+
+
+/* IDEA: ID targets */
+#title{
+text-align: center;
+padding: 5% 20% 15%;
+background:#6B9080;
+color: white;
+}
+
+#projects{
+  text-align: center;
+  padding: 5% 20% 15%;
+  background-color:#CCE3DE;
+  color: #6B9080;
+}
+
+#contact-me{
+  text-align: center;
+}
+
+
+/* IDEA: @media targets */
+@media (max-width:991px) {
+  .title-name{
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (max-width:576px) {
+  .title-images{
+    display: none;
+  }
+}
