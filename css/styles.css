@@ -80,6 +80,20 @@ h5{
 
 /* IDEA: contact section */
 
+.contact-me-head{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 7% auto;
+}
+.contact-me-header{
+  margin: 3% auto;
+}
+
+.contact-form{
+  padding 100px 100px;
+  margin-bottom: 7%;
+}
 
 
 /* IDEA: ID targets */
@@ -99,6 +113,8 @@ color: white;
 
 #contact-me{
   text-align: center;
+  background: white;
+  color: #6B9080;
 }
 
 
