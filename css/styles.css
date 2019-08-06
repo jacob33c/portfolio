@@ -16,9 +16,8 @@ h5{
 
 /* IDEA: navbar styles */
 .navbar-brand{
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 1.3rem;
+  font-family: 'Kalam', cursive;
+  font-size: 3em;
   color:#EAF4F4;
 }
 .nav-link{
@@ -54,6 +53,7 @@ h5{
 .title-right{
   text-align: center;
 }
+
 
 /* IDEA: project section */
 .project-header{
