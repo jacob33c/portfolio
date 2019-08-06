@@ -261,14 +261,15 @@
 
     <h1 class="contact-me-head">Contact Me</h1>
     <h2 class="contact-me-header">Have questions or want to work with me?</h2>
-    <form class="contact-form" action="index.html" method="post">
-      <input type="text" name="name-of-contact" placeholder="First and Last Name">
+    <h3>Please leave your name, contact email, and breif message below! I read them all.</h3>
+    <form class="contact-form" action="mailto:jacobfraizer@gmail.com" method="post" enctype="text/plain">
+      <input class="contact-input" type="text" name="name-of-contact" placeholder="Name">
       <br>
-      <input type="email" name="" placeholder="email">
+      <input class="contact-input" type="email" name="email" placeholder="Email">
       <br>
-      <input type="text" name="" placeholder="Messgae">
+      <input class="contact-input" type="text" name="message" placeholder="Messgae">
       <br>
-      <button type="sumbit" name="button">Submit form</button>
+      <button class="contact-input"  type="sumbit" name="button" value="Send">Submit form</button>
     </form>
   </section>
 
